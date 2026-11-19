@@ -2,15 +2,20 @@
 
 The [Parquet sample](multilingual_captions_sample.parquet) contains L0–L3 captions in English, Chinese, and Spanish for 100 clips randomly sampled from the same shard as the five examples below.
 
-## 1. A cut to a title card
+## Short captions (L0)
 
-### L0
+| Example | English | 中文 | Español |
+|---|---|---|---|
+| 1. A cut to a title card | A man picks up a grey case and walks out of a room with white brick walls, followed by a title card reading 'Accessory set'. | 一个男人拿起一个灰色箱子，走出有白色砖墙的房间，随后出现一个写着“配件套装”的标题卡片。 | Un hombre toma una caja gris y sale de una habitación con paredes de ladrillo blanco, seguido por un cartel que dice “Juego de accesorios”. |
+| 2. Fish in a blue-lit aquarium | Small fish swim inside a blue-lit aquarium decorated with artificial plants and white sand. | 小鱼在有蓝色灯光、装饰着人工植物和白色沙子的水族箱中游动。 | Pequeños peces nadan dentro de un acuario iluminado en azul, decorado con plantas artificiales y arena blanca. |
+| 3. Scrolling through a handheld device | A close-up view of a person's finger scrolling through a list of numbers on a handheld electronic device screen. | 一个人手指在手持电子设备屏幕上滚动浏览数字列表的特写画面。 | Una vista de cerca del dedo de una persona que navega por una lista de números en la pantalla de un dispositivo electrónico portátil. |
+| 4. An arid hillside | A static view of a rugged, arid landscape with a dark hillside in the background and dry brush in the foreground. | 一幅静态画面，展现一片崎岖干旱的地形，背景是黑暗的山坡，前景则是干燥的灌木丛。 | Una vista estática de un paisaje árido y accidentado, con una ladera oscura en el fondo y matorral seco en primer plano. |
+| 5. A close-up of sliced roast meat | Sliced roasted meat arranged on a white plate. | 切片的烤肉摆放在白色盘子上。 | Carne asada cortada en trozos, dispuesta en un plato blanco. |
 
-**English:** A man picks up a grey case and walks out of a room with white brick walls, followed by a title card reading 'Accessory set'.
+## Detailed captions (L1–L3)
 
-**中文:** 一个男人拿起一个灰色箱子，走出有白色砖墙的房间，随后出现一个写着“配件套装”的标题卡片。
-
-**Español:** Un hombre toma una caja gris y sale de una habitación con paredes de ladrillo blanco, seguido por un cartel que dice “Juego de accesorios”.
+<details>
+<summary>1. A cut to a title card · L1–L3</summary>
 
 ### L1
 
@@ -36,15 +41,10 @@ The [Parquet sample](multilingual_captions_sample.parquet) contains L0–L3 capt
 
 **Español:** El video comienza con una imagen estática de un hombre en una habitación con paredes de ladrillos pintados en blanco y suelo de concreto. El hombre, vestido con una chaqueta oscura sobre una camisa clara y pantalones blancos, se agacha para recoger una caja rectangular gris del suelo. Levanta el objeto y camina hacia el lado derecho del encuadre, saliendo de la vista. La cámara permanece inmóvil mientras el hombre se aleja, dejando la habitación vacía en el encuadre. Luego, la escena pasa a un fondo blanco con líneas gráficas azules y un cartel azul en el centro que contiene el texto “Juego de accesorios”. El texto permanece en la pantalla hasta el final del video.
 
-## 2. Fish in a blue-lit aquarium
+</details>
 
-### L0
-
-**English:** Small fish swim inside a blue-lit aquarium decorated with artificial plants and white sand.
-
-**中文:** 小鱼在有蓝色灯光、装饰着人工植物和白色沙子的水族箱中游动。
-
-**Español:** Pequeños peces nadan dentro de un acuario iluminado en azul, decorado con plantas artificiales y arena blanca.
+<details>
+<summary>2. Fish in a blue-lit aquarium · L1–L3</summary>
 
 ### L1
 
@@ -70,15 +70,10 @@ The [Parquet sample](multilingual_captions_sample.parquet) contains L0–L3 capt
 
 **Español:** Esta toma estática de tamaño medio muestra un acuario doméstico iluminado por una tira de luz azul brillante en el borde superior. El acuario está decorado con una capa de arena blanca y contiene varias plantas artificiales: hierbas altas en el lado izquierdo, una planta verde con hojas anchas en el centro y una planta con tonos azules en el lado derecho. Una estructura rectangular y oscura se encuentra en el centro del sustrato. A lo largo del video, varios peces pequeños nadan activamente dentro del acuario. Un pez naranja brillante se puede ver frecuentemente nadando cerca del centro y del lado derecho, mientras que algunos peces pálidos y blancos nadan cerca de la superficie y del lado izquierdo. En el extremo derecho se puede ver un tubo de filtración vertical. La cámara permanece completamente inmóvil, proporcionando una vista constante del entorno acuático y los patrones de nado continuo de los peces.
 
-## 3. Scrolling through a handheld device
+</details>
 
-### L0
-
-**English:** A close-up view of a person's finger scrolling through a list of numbers on a handheld electronic device screen.
-
-**中文:** 一个人手指在手持电子设备屏幕上滚动浏览数字列表的特写画面。
-
-**Español:** Una vista de cerca del dedo de una persona que navega por una lista de números en la pantalla de un dispositivo electrónico portátil.
+<details>
+<summary>3. Scrolling through a handheld device · L1–L3</summary>
 
 ### L1
 
@@ -104,15 +99,10 @@ The [Parquet sample](multilingual_captions_sample.parquet) contains L0–L3 capt
 
 **Español:** Un plano en primer plano, estático, muestra a una persona interactuando con un dispositivo electrónico portátil, probablemente un Nintendo DS, que está sobre una superficie de madera. El dispositivo tiene una carcasa negra con un acento rojo en el lado izquierdo. La pantalla muestra una interfaz blanca con una cuadrícula de números y texto, incluyendo el título “Texto – Abby”. Un dedo entra en el encuadre y toca repetidamente la pantalla táctil, desplazando la lista de números. El fondo consiste en una mesa de madera con algunos objetos metálicos pequeños y poco visibles dispersos a la izquierda. La iluminación es intensa, causando un ligero resplandor en la pantalla, mientras la cámara permanece fija en el dispositivo durante toda la escena.
 
-## 4. An arid hillside
+</details>
 
-### L0
-
-**English:** A static view of a rugged, arid landscape with a dark hillside in the background and dry brush in the foreground.
-
-**中文:** 一幅静态画面，展现一片崎岖干旱的地形，背景是黑暗的山坡，前景则是干燥的灌木丛。
-
-**Español:** Una vista estática de un paisaje árido y accidentado, con una ladera oscura en el fondo y matorral seco en primer plano.
+<details>
+<summary>4. An arid hillside · L1–L3</summary>
 
 ### L1
 
@@ -138,15 +128,10 @@ The [Parquet sample](multilingual_captions_sample.parquet) contains L0–L3 capt
 
 **Español:** El video presenta una vista estática y de gran angular de un paisaje árido y rocoso, probablemente un cañón o terreno accidentado. La escena está dominada por una gran ladera en el fondo, caracterizada por tonos oscuros y tierra, y por zonas de vegetación verde que se adhieren al terreno. El primer plano está lleno de matorrales secos y de hierbas altas de color beige, lo que dificulta la visión de la base de la colina. La iluminación parece natural, proyectando sombras suaves que definen los contornos del terreno. Durante todo el tiempo del video, la cámara permanece completamente inmóvil, sin movimientos de panorámica, inclinación ni acercamiento. No hay movimiento en la vegetación, lo que sugiere una falta de viento, y ningún sujeto o animal aparece en la imagen. El contenido visual es constante desde el principio hasta el final, capturando un momento estático en un entorno natural desolado.
 
-## 5. A close-up of sliced roast meat
+</details>
 
-### L0
-
-**English:** Sliced roasted meat arranged on a white plate.
-
-**中文:** 切片的烤肉摆放在白色盘子上。
-
-**Español:** Carne asada cortada en trozos, dispuesta en un plato blanco.
+<details>
+<summary>5. A close-up of sliced roast meat · L1–L3</summary>
 
 ### L1
 
@@ -171,3 +156,5 @@ The [Parquet sample](multilingual_captions_sample.parquet) contains L0–L3 capt
 **中文:** 一个静态特写镜头展示了成排的烤肉片，可能是叉烧，以对角线方式排列在白色表面上。肉块表面有光泽，呈深红褐色，可以看到脂肪和瘦肉层。光线明亮，凸显了肉块的光泽。右下角有淡淡的水印。摄像机在整个视频中保持完全静止，始终聚焦于食物。视频快结束时，图像质量明显下降，变得像素化且模糊，无法看清肉片的细节。
 
 **Español:** Una toma estática de primer plano muestra una fila de carne asada cortada en rodajas, probablemente char siu, dispuesta en forma diagonal sobre una superficie blanca. La carne presenta un exterior brillante, de color marrón rojizo oscuro, con capas visibles de grasa y músculo magro. La iluminación es intensa, resaltando el brillo de la carne. En la esquina inferior derecha se puede ver una marca de agua sutil. La cámara permanece completamente inmóvil durante todo el clip, manteniendo un enfoque fijo en la comida. Hacia el final de la secuencia, la calidad de la imagen empeora significativamente, volviéndose pixelada y borrosa, ocultando los detalles de las rodajas de carne.
+
+</details>
